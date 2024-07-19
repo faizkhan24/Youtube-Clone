@@ -1,0 +1,98 @@
+[data-theme="light"] {
+    --bg-color: #ffffff;
+    --text-color: black;
+    --button-bg : rgb(229, 229, 229);
+    --button-border: rgb(222, 222, 222);
+    --suggestion-bg: #ffffff;
+    --search-link: rgb(201, 199, 199);
+    --shimmer-lines: rgb(210, 210, 210);
+  }
+  
+  /* Dark mode styles */
+  [data-theme="dark"] {
+    --bg-color: black;
+    --text-color: #ffffff;
+    --button-bg : #2f2f2f;
+    --button-border: #616161;
+    --suggestion-bg: #2a2a2a;
+    --search-link: #c3c3c3;
+    --shimmer-lines: gray;
+  }
+  
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+   
+  }
+  *{
+    transition: all 0.02s ease-in-out;
+  }
+  .buttonlist{
+    background-color: var(--button-bg);
+    color: var(--text-color);
+    width: 95px;
+    height: auto;
+    
+  }
+  
+  .search-input{
+    background-color: var(--bg-color);
+    border: 0.1rem solid var(--button-border);
+    /* height: 42px; */
+    /* width: 536px; */
+    
+   
+  }
+  
+  .search-button{
+    background-color: var(--button-bg);
+    border: 1px solid var(--button-border);
+    width: 64px;
+
+  }
+  .description{
+    background-color: var(--button-bg);
+  }
+  .authorName{
+    color: var(--text-color);
+  }
+  .searchSuggestion{
+    background-color: var(--suggestion-bg);
+    color: var(--text-color);
+    border: 1px solid var(--button-border);
+  }
+  .search-link:hover{
+    background-color: var(--search-link);
+    
+  }
+  /* .shimmer{
+    background-color: var(--button-bg);
+  }
+
+  .shimmer-lines{
+    background-color: var(--shimmer-lines);
+  } */
+  .like-button{
+    background-color: var(--button-bg);
+  }
+/* 
+  .live-chat::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  /* .live-chat::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  } */
+   
+  /* Handle */
+  /* .live-chat::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 10px;
+  }
+   */
+  /* Handle on hover */
+  /* .live-chat::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  } */ 
